@@ -1,0 +1,146 @@
+body {
+  font-family: Montserrat;
+  text-align: center
+}
+
+#title {
+  background-color: #eaf6f6;
+  color: #000;
+}
+
+
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*16px = 100% = 1 em. jadi jika 90pixel= 90/16 = 5.625 em  */
+  /* root em tdk berpengaruh dengan parent jadi akan tetap*/
+margin: 50px auto 0 auto; /*top right bottom left */
+}
+
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;/*40/16 */
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+hr {
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eaf6f6;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+.gambar-profile {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+}
+
+.mountain {
+  width: 40%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.gambar-development {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gambar-database {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.gambar-design{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gambar-udinus {
+  width: 40%;
+  margin: 50px auto 50px auto;
+}
+
+.gambar-indomaret {
+  margin: 50px auto 50px auto;
+  width: 40%;
+}
+
+.local-guide {
+width: 40%;
+  margin: 50px auto 50px auto;
+}
+
+.udemy {
+width: 40%;
+  margin: 50px auto 50px auto;
+}
+
+.gambar-education {
+  margin: 50px auto 50px auto;
+  width: 150px;
+  height: 150px;
+}
+
+
+#perkenalan {
+padding: 5% 15%;
+}
+
+#experience {
+padding: 0 15%;
+}
+
+.middle3-container{
+  text-align: center;
+  padding: 5%;
+}
+
+
+#certificate {
+padding: 0 15%;
+}
+
+.middle6-container{
+  text-align: center;
+  padding: 5%;
+}
+
+#organisasi {
+padding: 0 15%;
+}
+
+.organisasi-gambar {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+
+}
+
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 20px 0 20px 0;
+}
