@@ -1,6 +1,8 @@
 body {
-  font-family: Montserrat;
-  text-align: center
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 #title {
@@ -27,6 +29,11 @@ h2 {
   padding-bottom: 10px;
 }
 
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
 hr {
 
     border-style: none;
@@ -37,8 +44,14 @@ hr {
     margin: 100px auto 100px auto;
 }
 
+
+p{
+  line-height: 2;
+}
+
+
 .gambar-profile {
-  margin: 0;
+  margin: 0 0 20px 0;
   width: 150px;
   height: 150px;
 }
@@ -49,9 +62,25 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 150px auto 150px auto;
   text-align: left;
 }
+
+.middle1-container {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+
+}
+
+.intro-myself {
+  text-align: center;
+  margin: 20px auto 0 auto;
+
+}
+
+
+
 
 .gambar-development {
   width: 25%;
@@ -72,22 +101,26 @@ hr {
 }
 
 .gambar-udinus {
-  width: 40%;
+  width: 150px;
+  height: 150px;
   margin: 50px auto 50px auto;
 }
 
 .gambar-indomaret {
   margin: 50px auto 50px auto;
-  width: 40%;
+  width: 150px;
+  height: 150px;
 }
 
 .local-guide {
-width: 40%;
+  width: 150px;
+  height: 150px;
   margin: 50px auto 50px auto;
 }
 
 .udemy {
-width: 40%;
+  width: 150px;
+  height: 150px;
   margin: 50px auto 50px auto;
 }
 
@@ -99,7 +132,7 @@ width: 40%;
 
 
 #perkenalan {
-padding: 5% 15%;
+padding: 3% 15%;
 }
 
 #experience {
@@ -125,22 +158,53 @@ padding: 0 15%;
 padding: 0 15%;
 }
 
-.organisasi-gambar {
-  margin: 0;
+.organisasi-gambar{
+  margin: 50px auto 50px auto;
+  width: 150px;
+  height: 150px;
+}
+
+
+@media (max-width: 1200px){
+  .organisasi-gambar{margin: 0;
   width: 150px;
   height: 150px;
 
+  }
 }
-
 
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #eaf6f6;
   padding: 50px 0 20px;
+
+}
+
+
+.footer-link{
+  color: #11999E;
 }
 
 .copyright{
-  color: #eaf6f6;
+  color: black;
   font-size: 0.75rem;
   margin: 20px 0 20px 0;
+}
+
+.middle7-container{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+
 }
