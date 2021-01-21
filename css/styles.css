@@ -57,7 +57,7 @@ p{
 
 
 .gambar-profile {
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
   width: 150px;
   height: 150px;
 }
@@ -90,21 +90,21 @@ p{
 
 
 .gambar-development {
-  width: 170px;
+  width: 180px;
   height: 150px;
   float: left;
   margin-right: 30px;
 }
 
 .gambar-database {
-  width: 170px;
+  width: 180px;
   height: 150px;
   float: right;
   margin-left: 30px;
 }
 
 .gambar-design{
-  width: 170px;
+  width: 180px;
   height: 150px;
   float: left;
   margin-right: 30px;
@@ -171,17 +171,17 @@ padding: 0 15%;
   padding: 5%;
 }
 
+/*
 #organisasi {
 padding: 0 15%;
 
-}
+} */
 
 .organisasi-gambar{
   margin: 50px auto 50px auto;
   width: 150px;
   height: 150px;
 }
-
 
 
 
