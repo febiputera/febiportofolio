@@ -10,6 +10,11 @@ body {
   color: #000;
 }
 
+.jobdesk {
+  text-align: left;
+  line-height: 2;
+
+}
 
 
 h1 {
@@ -33,6 +38,7 @@ h3 {
   color:#11999E;
   font-family: 'Montserrat', sans-serif;
 }
+
 
 hr {
 
@@ -64,7 +70,9 @@ p{
   width: 50%;
   margin: 150px auto 150px auto;
   text-align: left;
+
 }
+
 
 .middle1-container {
   width: 70%;
@@ -81,24 +89,33 @@ p{
 
 
 
-
 .gambar-development {
-  width: 25%;
+  width: 170px;
+  height: 150px;
   float: left;
   margin-right: 30px;
 }
 
 .gambar-database {
-  width: 25%;
+  width: 170px;
+  height: 150px;
   float: right;
   margin-left: 30px;
 }
 
 .gambar-design{
-  width: 25%;
+  width: 170px;
+  height: 150px;
   float: left;
   margin-right: 30px;
 }
+
+/*
+.gambar-design{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+} */
 
 .gambar-udinus {
   width: 150px;
@@ -156,6 +173,7 @@ padding: 0 15%;
 
 #organisasi {
 padding: 0 15%;
+
 }
 
 .organisasi-gambar{
@@ -177,7 +195,7 @@ padding: 0 15%;
 
 
 .bottom-container {
-  background-color: #eaf6f6;
+      background-color: #eaf6f6;
   padding: 50px 0 20px;
 
 }
